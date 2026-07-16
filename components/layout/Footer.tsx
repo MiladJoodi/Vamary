@@ -138,6 +138,17 @@ export function Footer() {
           <p>
             © {new Date().getFullYear()} {siteConfig.name}. All rights reserved.
           </p>
+          <p>
+            Built with ❤️ by{" "}
+            <a
+              href={siteConfig.social.linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white/60 transition hover:text-white"
+            >
+              Milad Joodi
+            </a>
+          </p>
           <div className="flex gap-3">
             <Link href="/faq" className="hover:text-white/70">
               FAQ

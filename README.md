@@ -5,6 +5,8 @@ Modern clinic website for plastic surgery and aesthetic care. Built with Next.js
 **Repo:** [github.com/MiladJoodi/Vamary](https://github.com/MiladJoodi/Vamary)  
 **Author:** [linkedin.com/in/joodi](https://www.linkedin.com/in/joodi/)
 
+Built with ❤️
+
 ## Tech stack
 
 - Next.js 16 (App Router)
