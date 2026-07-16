@@ -1,6 +1,38 @@
 # Vamary
 
-Plastic surgery & aesthetic clinic — Next.js 16 application
+Modern clinic website for plastic surgery and aesthetic care. Built with Next.js 16.
+
+**Repo:** [github.com/MiladJoodi/Vamary](https://github.com/MiladJoodi/Vamary)  
+**Author:** [linkedin.com/in/joodi](https://www.linkedin.com/in/joodi/)
+
+## Tech stack
+
+- Next.js 16 (App Router)
+- React 19
+- TypeScript
+- Tailwind CSS 4
+- Framer Motion
+- Swiper
+- React Hook Form + Zod
+
+## Pages
+
+| Route | Description |
+|-------|-------------|
+| `/` | Home (hero, services, gallery, team, blog, …) |
+| `/about` | Clinic story and milestones |
+| `/services` | Service list |
+| `/services/[slug]` | Service detail |
+| `/cases` | Case studies |
+| `/cases/[slug]` | Case detail + before/after |
+| `/team` | Doctors |
+| `/team/[slug]` | Doctor profile |
+| `/pricing` | Packages |
+| `/faq` | FAQ |
+| `/appointment` | Booking form |
+| `/blog` | Articles |
+| `/blog/[slug]` | Article detail |
+| `/contact` | Contact form + map |
 
 ## Run
 
@@ -9,8 +41,6 @@ npm install
 npm run dev
 ```
 
-Build:
-
 ```bash
 npm run build
 npm start
@@ -18,7 +48,9 @@ npm start
 
 ## Structure
 
-- `app/` — routes and layout (English, LTR)
-- `components/` — UI, layout, sections, shared
-- `data/` — static English content
-- `public/images/` — migrated assets
+```
+app/           pages and layout
+components/    UI, layout, sections
+data/          content (services, team, blog, …)
+public/images/ assets
+```

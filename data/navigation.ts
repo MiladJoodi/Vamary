@@ -31,8 +31,7 @@ export const siteConfig = {
   address: "128 Valiasr Ave, above Saei Park, Tehran",
   hours: "Sat–Thu · 9:00 AM – 8:00 PM",
   social: {
-    instagram: "#",
-    telegram: "#",
-    linkedin: "#",
+    linkedin: "https://www.linkedin.com/in/joodi/",
+    github: "https://github.com/MiladJoodi/Vamary",
   },
 } as const;

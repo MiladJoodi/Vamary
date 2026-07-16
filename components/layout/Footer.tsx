@@ -18,6 +18,8 @@ function SocialIcon({
   return (
     <a
       href={href}
+      target="_blank"
+      rel="noopener noreferrer"
       className="inline-flex size-8 items-center justify-center rounded-md bg-white/10 text-white/80 transition hover:bg-white/15 hover:text-white"
       aria-label={label}
     >
@@ -64,27 +66,17 @@ export function Footer() {
               {siteConfig.description}
             </p>
             <div className="mt-4 flex gap-2">
-              <SocialIcon label="Instagram" href={siteConfig.social.instagram}>
-                <svg
-                  viewBox="0 0 24 24"
-                  className="size-3.5"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="1.8"
-                >
-                  <rect x="3" y="3" width="18" height="18" rx="5" />
-                  <circle cx="12" cy="12" r="4" />
-                  <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none" />
-                </svg>
-              </SocialIcon>
-              <SocialIcon label="Telegram" href={siteConfig.social.telegram}>
-                <svg viewBox="0 0 24 24" className="size-3.5" fill="currentColor">
-                  <path d="M21.5 3.5 2.8 11.2c-.9.4-.9 1.6.1 1.9l4.7 1.5 1.8 5.6c.3.9 1.5 1.1 2.1.4l2.7-2.9 4.9 3.6c.8.6 1.9.1 2.1-.9L22.9 4.7c.2-1.1-.9-1.9-1.9-1.4z" />
-                </svg>
-              </SocialIcon>
-              <SocialIcon label="LinkedIn" href={siteConfig.social.linkedin}>
+              <SocialIcon
+                label="LinkedIn"
+                href={siteConfig.social.linkedin}
+              >
                 <svg viewBox="0 0 24 24" className="size-3.5" fill="currentColor">
                   <path d="M6.5 9.5H3.7V20h2.8V9.5zM5.1 4a1.65 1.65 0 1 0 0 3.3 1.65 1.65 0 0 0 0-3.3zM20.3 20h-2.8v-5.6c0-1.3-.5-2.2-1.7-2.2-.9 0-1.4.6-1.6 1.2-.1.2-.1.5-.1.8V20h-2.8s.0-9.4 0-10.5h2.8v1.5c.4-.6 1.1-1.5 2.7-1.5 2 0 3.5 1.3 3.5 4.1V20z" />
+                </svg>
+              </SocialIcon>
+              <SocialIcon label="GitHub" href={siteConfig.social.github}>
+                <svg viewBox="0 0 24 24" className="size-3.5" fill="currentColor">
+                  <path d="M12 2C6.48 2 2 6.58 2 12.26c0 4.52 2.87 8.35 6.84 9.7.5.1.68-.22.68-.48 0-.24-.01-.87-.01-1.7-2.78.62-3.37-1.37-3.37-1.37-.46-1.2-1.12-1.52-1.12-1.52-.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.9 1.57 2.36 1.12 2.94.85.09-.67.35-1.12.63-1.38-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.7 0 0 .84-.27 2.75 1.05A9.3 9.3 0 0 1 12 7.5c.85 0 1.71.12 2.51.35 1.9-1.32 2.74-1.05 2.74-1.05.55 1.4.2 2.44.1 2.7.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.8-4.57 5.06.36.32.68.94.68 1.9 0 1.38-.01 2.49-.01 2.83 0 .26.18.58.69.48A10.03 10.03 0 0 0 22 12.26C22 6.58 17.52 2 12 2z" />
                 </svg>
               </SocialIcon>
             </div>

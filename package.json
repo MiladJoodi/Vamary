@@ -1,7 +1,29 @@
 {
   "name": "vamary",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
+  "description": "Modern plastic surgery and aesthetic clinic website built with Next.js 16.",
+  "author": {
+    "name": "Milad Joodi",
+    "url": "https://www.linkedin.com/in/joodi/"
+  },
+  "homepage": "https://github.com/MiladJoodi/Vamary",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MiladJoodi/Vamary.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MiladJoodi/Vamary/issues"
+  },
+  "keywords": [
+    "nextjs",
+    "clinic",
+    "plastic-surgery",
+    "aesthetics",
+    "tailwindcss",
+    "typescript"
+  ],
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
