@@ -12,7 +12,7 @@ Modern clinic website for plastic surgery and aesthetic care. Built with Next.js
 - Swiper
 - React Hook Form + Zod
 
-## Pages
+## Pages 
 
 | Route | Description |
 |-------|-------------|
